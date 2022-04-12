@@ -11,7 +11,8 @@
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
-
+/*///////////////////////////Ici Propriétés images et card/////////////////////////*/
+/*accueil*/
 .section_restaurant
 {
     width: 100%;
@@ -33,4 +34,11 @@
 .card_restaurant_txt
 {
     min-height: 10%;
+}
+
+/*pages*/
+.font_page_img
+{
+    width: 100%;
+    height: 200px;
 }
