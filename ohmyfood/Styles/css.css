@@ -11,3 +11,26 @@
     font-family: 'Roboto', 'Shrikhand', sans-serif;
     margin: 0 auto;
 }
+
+.section_restaurant
+{
+    width: 100%;
+    height: 40%;
+}
+
+.card_restaurant
+{
+    width: 100%;
+}
+
+.card_restaurant img 
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card_restaurant_txt
+{
+    min-height: 10%;
+}
