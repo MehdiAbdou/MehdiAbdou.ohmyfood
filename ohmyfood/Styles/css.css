@@ -11,15 +11,15 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-/*///////////////////////////Ici Propriétés images et card/////////////////////////*/
-/*index*/
-
-
 #bloc_page
 {
     width: 100%;
     text-align: center;
 }
+
+
+/*Ici commence le css relatif a l'index*/
+/*<Header<*/
 
 .header_logo_img
 {
@@ -34,15 +34,28 @@
     width: 100%;
     background-color: #cccccc;
     border-top: solid 2px grey;
-    padding: 2%;
+    padding: 4%;
 }
+/*>Header>*/
 
+/*<Section_top<*/
 .section_top
 { 
     background-color: #f2f2f2;
-    padding: 18%;
+    padding: 10%;
 }
 
+.section_top h2
+{
+    margin-bottom: 10%;
+}
+.section_top_txt
+{
+    margin-bottom: 15%;
+}
+/*>Section_top>*/
+
+/*///////////////////////////Ici Propriétés images et card/////////////////////////*/
 .section_restaurant
 {
     width: 100%;
