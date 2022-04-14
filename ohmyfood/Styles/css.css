@@ -12,22 +12,17 @@
     margin: 0 auto;
 }
 /*///////////////////////////Ici Propriétés images et card/////////////////////////*/
-/*accueil*/
-
-
-#bloc_page
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-}
+/*index*/
 
 .header_logo_img
 {
     width: 186px;
 }
- 
+.location
+{
+    width: 100%;
+    background-color: grey;
+}
 .section_restaurant
 {
     width: 100%;
