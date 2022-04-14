@@ -14,15 +14,31 @@
 /*///////////////////////////Ici Propriétés images et card/////////////////////////*/
 /*index*/
 
+
+#bloc_page
+{
+    width: 100%;
+    text-align: center;
+}
+
+
+
 .header_logo_img
 {
     width: 186px;
 }
+
 .location
 {
     width: 100%;
-    background-color: grey;
+    background-color: #cccccc;
 }
+
+.section_top
+{
+    background-color: #f2f2f2;
+}
+
 .section_restaurant
 {
     width: 100%;
@@ -44,6 +60,7 @@
 .card_restaurant_txt
 {
     min-height: 10%;
+    text-align: initial;
 }
 
 /*pages*/
