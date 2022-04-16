@@ -59,20 +59,32 @@
 .section_fonctionnement h2
 {
     text-align: start;
+    margin-left: 20px;
 }
 
+.section_fonctionnement
+{
+    margin: 10% 0% 10% 0%;
+}
 .fonctionnement_liste_pimp
 {
     display: flex;
     gap: 10%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin: 30px;
+    align-items: center;
+    height: 80px;
+    box-shadow: 2px 4px 10px;
 }
+
 .chiffre
 {
-    display: block;
     background-color: #9356DC;
     color: white;
     border-radius: 20px;
     padding: 5px 10px 5px 10px;
+    margin-left: -12px;
 }
 
 /*///////////////////////////Ici Propriétés images et card/////////////////////////*/
