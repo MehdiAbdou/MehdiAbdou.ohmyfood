@@ -86,32 +86,52 @@
     padding: 5px 10px 5px 10px;
     margin-left: -12px;
 }
-
+/*>Section_fonctionnement>*/
 /*///////////////////////////Ici Propriétés images et card/////////////////////////*/
 .section_restaurant
 {
-    width: 100%;
-    height: 40%;
+    background-color: #f2f2f2;
+}
+.section_restaurant h2
+{
+    text-align: start;
+    margin-left: 20px;
 }
 
+.section_card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .card_restaurant
 {
-    width: 95%;
+    width: 90%;
+    background-color: white;
 }
 
 .card_restaurant img 
 {
-    width: 95%;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
-.card_restaurant_txt
+.card_restaurant_bottom
 {
     min-height: 10%;
     text-align: initial;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
 }
 
+.fa-heart
+{
+    font-size: x-large;
+    padding-top: 5px;
+    padding-right: 20px;
+}
 /*pages*/
 .font_page_img
 {
