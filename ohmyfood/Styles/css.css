@@ -8,8 +8,115 @@
 
 * 
 {
-    font-family: 'Roboto', 'Shrikhand', sans-serif;
-    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+#bloc_page
+{
+    width: 100%;
+    text-align: center;
+}
+
+
+/*Ici commence le css relatif a l'index*/
+/*<Header<*/
+
+.header_logo_img
+{
+    width: 186px;
+}
+
+.location
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    background-color: #cccccc;
+    border-top: solid 2px grey;
+    padding: 4%;
+}
+/*>Header>*/
+
+/*<Section_top<*/
+.section_top
+{ 
+    background-color: #f2f2f2;
+    padding: 10%;
+}
+
+.section_top h2
+{
+    margin-bottom: 10%;
+}
+.section_top_txt
+{
+    margin-bottom: 15%;
+}
+/*>Section_top>*/
+/*<Section_fonctionnement<*/
+
+.section_fonctionnement h2
+{
+    text-align: start;
+    margin-left: 20px;
+}
+
+.section_fonctionnement
+{
+    margin: 10% 0% 10% 0%;
+}
+.fonctionnement_liste_pimp
+{
+    display: flex;
+    gap: 10%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin: 30px;
+    align-items: center;
+    height: 80px;
+    box-shadow: 2px 4px 10px;
+}
+
+.chiffre
+{
+    background-color: #9356DC;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    margin-left: -12px;
+}
+
+/*///////////////////////////Ici Propriétés images et card/////////////////////////*/
+.section_restaurant
+{
+    width: 100%;
+    height: 40%;
+}
+
+.card_restaurant
+{
+    width: 95%;
+}
+
+.card_restaurant img 
+{
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card_restaurant_txt
+{
+    min-height: 10%;
+    text-align: initial;
+}
+
+/*pages*/
+.font_page_img
+{
+    width: 100%;
+    height: 200px;
 }
 
 .card_restaurant
