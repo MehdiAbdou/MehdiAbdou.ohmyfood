@@ -54,6 +54,26 @@
     margin-bottom: 15%;
 }
 /*>Section_top>*/
+/*<Section_fonctionnement<*/
+
+.section_fonctionnement h2
+{
+    text-align: start;
+}
+
+.fonctionnement_liste_pimp
+{
+    display: flex;
+    gap: 10%;
+}
+.chiffre
+{
+    display: block;
+    background-color: #9356DC;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
 
 /*///////////////////////////Ici Propriétés images et card/////////////////////////*/
 .section_restaurant
