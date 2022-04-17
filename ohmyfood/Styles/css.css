@@ -105,6 +105,24 @@
     flex-direction: column;
     align-items: center;
 }
+
+.img_nouveau
+{
+    margin-bottom: -20px;
+}
+
+.nouveau
+{
+    position: relative;
+    left: 240px;
+    bottom: 180px;
+    background-color: #99E2D0;
+    width: 80px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
 .card_restaurant
 {
     width: 90%;
@@ -127,7 +145,7 @@
     text-align: initial;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px 10px 10px;
+    padding: 0px 0px 10px 10px;
 }
 
 .fa-heart
