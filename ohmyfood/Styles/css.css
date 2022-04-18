@@ -168,7 +168,31 @@ a
     padding-right: 20px;
 }
 
-/*<footer<*/
+/*Ici commence le css relatif aux pages*/
+
+/*<header_pages<*/
+.header_logo_pages
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -70px;
+    padding: 10px;
+}
+
+.header_logo_pages_img
+{
+    width: 186px;
+    margin-left: -20px;
+}
+
+.fa-arrow-left
+{
+    padding-top: 8px;
+}
+
+/*>header_pages>*/
+
+/*<footer commun<*/
 
 footer
 {
@@ -214,6 +238,9 @@ footer a
 {
     margin-right: 2px;
 }
+
+/*>footer commun>*/
+
 
 /*pages*/
 .font_page_img
