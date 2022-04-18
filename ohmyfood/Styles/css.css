@@ -26,6 +26,11 @@ a
 /*Ici commence le css relatif a l'index*/
 /*<Header<*/
 
+.header_logo
+{
+    margin-top: 10px;
+}
+
 .header_logo_img
 {
     width: 186px;
@@ -93,6 +98,7 @@ a
 }
 /*>Section_fonctionnement>*/
 /*///////////////////////////Ici Propriétés images et card/////////////////////////*/
+
 .section_restaurant
 {
     background-color: #f6f6f6;
@@ -162,6 +168,7 @@ a
 }
 
 /*<footer<*/
+
 footer
 {
     background-color: #353535;
@@ -171,11 +178,15 @@ footer
 {
     color: white;
     margin: 10px;
+    font-family: 'Shrikhand';
+    padding-top: 20px;
 }
 
 .footer_txt
 {
     color: white;
+    margin-left: 10px;
+    padding-bottom: 20px;
 }
 
 ul
@@ -191,6 +202,16 @@ footer li
 footer a 
 {
     color: white;
+}
+
+.fa-utensils
+{
+    margin-right: 8px;
+}
+
+.fa-handshake-angle
+{
+    margin-right: 2px;
 }
 
 /*pages*/
