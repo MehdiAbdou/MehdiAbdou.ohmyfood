@@ -14,7 +14,7 @@
         <link href="Styles/css.css" rel="stylesheet">
     </head> 
     <body> <!--Début Body-->
-        <div id="bloc_page"> <!--Début bloc_page -->
+        <div class="bloc_page"> <!--Début bloc_page -->
             <header>
                 <div class="header_logo">
                     <img src="Styles/images/logo/ohmyfood.png" class="header_logo_img" alt="Logo_Ohmyfood">
@@ -53,11 +53,14 @@
                 </div>
             </section>
             <section class="section_restaurant">
-                <h2>Restaurant</h2>
+                <h2>Restaurants</h2>
                 <div class="section_card">
                     <div class="card_restaurant"><!-- Début card restaurant 1-->
-                        <a href="#" class="card_clicable">
-                            <img src="Styles/images/restaurants/gout.jpg" alt="La palette du goût" class="img_gout"/>
+                        <a href="palette_du_gout.html" class="card_clicable">
+                            <div class="img_nouveau">
+                                <img src="Styles/images/restaurants/gout.jpg" alt="La palette du goût" class="img_gout"/>
+                                <p class="nouveau">Nouveau</p>
+                            </div>
                             <div class="card_restaurant_bottom">
                                 <div class="card_restaurant_bottom_txt"><h3>La palette du goût</h3><p>Ménilmontant</p></div>
                                 <i class="fa-regular fa-heart"></i>
@@ -65,8 +68,11 @@
                         </a>
                     </div><!-- Fin Card restaurant 1-->
                     <div class="card_restaurant"><!-- Début card restaurant2-->
-                        <a href="#" class="card_clicable">
-                            <img src="Styles/images/restaurants/note.jpg" alt="La note enchantée" class="img_note"/>
+                        <a href="note_enchantee.html" class="card_clicable">
+                            <div class="img_nouveau">
+                                <img src="Styles/images/restaurants/note.jpg" alt="La note enchantée" class="img_note"/>
+                                <p class="nouveau">Nouveau</p>
+                            </div>
                             <div class="card_restaurant_bottom">
                                 <div class="card_restaurant_bottom_txt"><h3>La note enchantée</h3><p>Charonne</p></div>
                                 <i class="fa-regular fa-heart"></i>
@@ -74,7 +80,7 @@
                         </a>
                     </div><!-- Fin Card restaurant 2-->
                     <div class="card_restaurant"><!-- Début card restaurant 3-->
-                        <a href="#" class="card_clicable">
+                        <a href="francaise.html" class="card_clicable">
                             <img src="Styles/images/restaurants/francaise.jpg" alt="À la française" class="img_francaise"/>
                             <div class="card_restaurant_bottom">
                                 <div class="card_restaurant_bottom_txt"><h3>À la française</h3><p>Cité Rouge</p></div>
@@ -83,7 +89,7 @@
                         </a>
                     </div><!-- Fin Card restaurant 3-->
                     <div class="card_restaurant"><!-- Début card restaurant 4-->
-                        <a href="#" class="card_clicable">
+                        <a href="delices_des_sens.html" class="card_clicable">
                             <img src="Styles/images/restaurants/sens.jpg" alt="Le délice des sens" class="img_sens"/>
                             <div class="card_restaurant_bottom">
                                 <div class="card_restaurant_bottom_txt"><h3>Le délice des sens</h3><p>Folie-Méricourt</p></div>
@@ -93,10 +99,12 @@
                     </div><!-- Fin Card restaurant 4-->
                 </div>
             </section>
-        </div>
+        </div><!--fin bloc_page -->
         <footer>
             <div class="footer_logo">
-                <img src="Styles/images/logo/ohmyfood.png" class="footer_logo_img" alt="Logo_Ohmyfood">
+                <h3 class="logo_footer">
+                    ohmyfood
+                </h3>
             </div>
             <div class="footer_txt">
                 <ul>

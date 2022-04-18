@@ -11,15 +11,26 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-#bloc_page
+
+.bloc_page
 {
     width: 100%;
     text-align: center;
 }
 
+a
+{
+    color: black;
+    text-decoration: none;
+}
 
 /*Ici commence le css relatif a l'index*/
 /*<Header<*/
+
+.header_logo
+{
+    margin-top: 10px;
+}
 
 .header_logo_img
 {
@@ -32,7 +43,7 @@
     justify-content: center;
     gap: 20px;
     width: 100%;
-    background-color: #cccccc;
+    background-color: #eaeaea;
     border-top: solid 2px grey;
     padding: 4%;
 }
@@ -41,7 +52,7 @@
 /*<Section_top<*/
 .section_top
 { 
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
     padding: 10%;
 }
 
@@ -70,7 +81,7 @@
 {
     display: flex;
     gap: 10%;
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
     border-radius: 20px;
     margin: 30px;
     align-items: center;
@@ -88,9 +99,10 @@
 }
 /*>Section_fonctionnement>*/
 /*///////////////////////////Ici Propriétés images et card/////////////////////////*/
+
 .section_restaurant
 {
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
     padding: 40px 0px 40px 0px;
 }
 .section_restaurant h2
@@ -105,6 +117,25 @@
     flex-direction: column;
     align-items: center;
 }
+
+.img_nouveau
+{
+    margin-bottom: -20px;
+}
+
+.nouveau
+{
+    position: relative;
+    left: 240px;
+    bottom: 180px;
+    background-color: #99E2D0;
+    color: #008c66;
+    width: 80px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
 .card_restaurant
 {
     width: 90%;
@@ -127,7 +158,7 @@
     text-align: initial;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px 10px 10px;
+    padding: 0px 0px 10px 10px;
 }
 
 .fa-heart
@@ -136,6 +167,102 @@
     padding-top: 5px;
     padding-right: 20px;
 }
+
+/*Ici commence le css relatif aux pages*/
+
+/*<header_pages<*/
+.header_logo_pages
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -70px;
+    padding: 10px;
+}
+
+.header_logo_pages_img
+{
+    width: 186px;
+    margin-left: -20px;
+}
+
+.fa-arrow-left
+{
+    padding-top: 8px;
+}
+
+/*>header_pages>*/
+
+/*<section menu pages<*/
+
+.section_menu_pages
+
+{
+    background-color: #f6f6f6;
+}
+
+h1
+{
+    font-family: 'Shrikhand' ;
+}
+
+.card_repas
+{
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+/*>section menu pages>*/
+
+/*<footer commun<*/
+
+footer
+{
+    background-color: #353535;
+}
+
+.logo_footer
+{
+    color: white;
+    margin: 10px;
+    font-family: 'Shrikhand';
+    padding-top: 20px;
+}
+
+.footer_txt
+{
+    color: white;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+ul
+{
+    padding: initial;
+}
+
+footer li
+{
+    list-style: none;
+    padding: 0%;
+}
+footer a 
+{
+    color: white;
+}
+
+.fa-utensils
+{
+    margin-right: 8px;
+}
+
+.fa-handshake-angle
+{
+    margin-right: 2px;
+}
+
+/*>footer commun>*/
+
+
 /*pages*/
 .font_page_img
 {
