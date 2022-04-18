@@ -192,6 +192,27 @@ a
 
 /*>header_pages>*/
 
+/*<section menu pages<*/
+
+.section_menu_pages
+
+{
+    background-color: #f6f6f6;
+}
+
+h1
+{
+    font-family: 'Shrikhand' ;
+}
+
+.card_repas
+{
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+/*>section menu pages>*/
+
 /*<footer commun<*/
 
 footer
