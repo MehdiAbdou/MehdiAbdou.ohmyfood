@@ -12,59 +12,132 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Shrikhand&display=swap" rel="stylesheet">
         <link href="Styles/normalize.css" rel="stylesheet">
         <link href="Styles/css.css" rel="stylesheet">
-    </head>
+    </head> 
     <body> <!--Début Body-->
-        <div class="bloc_page"> <!--Début bloc_page -->
+        <div class="bloc_pages"> <!--Début bloc_page -->
             <header>
-                <div class="header_logo">
-                    <img src="Styles/images/logo/ohmyfood.png" class="header_logo_img" alt="Logo_Ohmyfood">
-                </div>
+                <div class="header_logo_pages">
+                    <a href="index.html"><i class="fa-solid fa-arrow-left"></i><a>
+                    <img src="Styles/images/logo/ohmyfood.png" class="header_logo_pages_img" alt="Logo_Ohmyfood">
+                </div>  
                 <div class="font_page">
-                    <img src="Styles/images/restaurants/gout.jpg" class="font_page_img" alt="Photo_la_palette_du_gout">
-                </div>
+                    <img src="Styles/images/restaurants/gout.jpg" class="font_page_img" alt="Photo_Le_délice_des_sens">
+                </div>            
             </header>
-            <section class="section_menu_gout">
-                <h1>La palette du goût</h1><i class="fa-regular fa-heart"></i>
-                <div class="section_menu_gout_entrees">
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-
-                    </div>
+            <section class="section_menu">
+                <div class="section_menu_titre">
+                    <h1>La palette du goût</h1>
+                    <i class="fa-regular fa-heart"></i>
                 </div>
-                <div class="section_menu_gout_plats">
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-                        
-                    </div>
-
+                <div class="section_menu_pages">
+                    <ul class="section_menu_pages_entrees">
+                        <h2>Entrées</h2>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Fricassée d'escargot</h3>
+                                <p>Au piment d'Espelette</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>25€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Foie gras de canard mi-cuit</h3>
+                                <p>Et ses copeaux de truffe noire</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>35€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Oeuf au plat</h3>
+                                <p>Assaisonné à la truffe sur lit de caviar</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>20€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="section_menu_pages_plats">
+                        <h2>Plats</h2>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Poulet rôti aux herbes de Provence</h3>
+                                <p>Et sa crème de truffe</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>40€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Parmentier de queue de boeuf</h3>
+                                <p>À la truffe noire sur sa purée de panais</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>35€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Filet de turbot</h3>
+                                <p>Aux agrumes</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>44€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="section_menu_pages_desserts">
+                        <h2>Desserts</h2>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Paris-Brest</h3>
+                                <p>Revisité</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>18€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Macaron au chocolat d'exception</h3>
+                                <p>Et glace à la vanille de Madagascar</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>22€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Mousse au chocolat</h3>
+                                <p>Au piment d'Espelette et à la truffe noire</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>23€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="bis">Commander</button>
                 </div>
-                <div class="section_menu_gout_desserts">
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-                        
-                    </div>
-                </div>
-                <button>Commander</button>
             </section>
         </div>
         <footer>
             <div class="footer_logo">
-                <img src="Styles/images/logo/ohmyfood.png" class="footer_logo_img" alt="Logo_Ohmyfood">
+                <h3 class="logo_footer">
+                    ohmyfood
+                </h3>
             </div>
             <div class="footer_txt">
                 <ul>
