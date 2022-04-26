@@ -13,59 +13,131 @@
         <link href="Styles/normalize.css" rel="stylesheet">
         <link href="Styles/css.css" rel="stylesheet">
     </head> 
-
     <body> <!--Début Body-->
-        <div class="bloc_page"> <!--Début bloc_page -->
+        <div class="bloc_pages"> <!--Début bloc_page -->
             <header>
-                <div class="header_logo">
-                    <img src="Styles/images/logo/ohmyfood.png" class="header_logo_img" alt="Logo_Ohmyfood">
-                </div>
+                <div class="header_logo_pages">
+                    <a href="index.html"><i class="fa-solid fa-arrow-left"></i><a>
+                    <img src="Styles/images/logo/ohmyfood.png" class="header_logo_pages_img" alt="Logo_Ohmyfood">
+                </div>  
                 <div class="font_page">
-                    <img src="Styles/images/restaurants/francaise.jpg" class="font_page_img" alt="Photo_À_la_française">
-                </div>
+                    <img src="Styles/images/restaurants/francaise.jpg" class="font_page_img" alt="Photo_Le_délice_des_sens">
+                </div>            
             </header>
-            <section class="section_menu_francaise">
-                <h1>À la française</h1><i class="fa-regular fa-heart"></i>
-                <div class="section_menu_francaise_entrees">
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-
-                    </div>
+            <section class="section_menu">
+                <div class="section_menu_titre">
+                    <h1>À la française</h1>
+                    <i class="fa-regular fa-heart"></i>
                 </div>
-                <div class="section_menu_francaise_plats">
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-                        
-                    </div>
-
+                <div class="section_menu_pages">
+                    <ul class="section_menu_pages_entrees">
+                        <h2>Entrées</h2>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Tartare de poulpe acidulé</h3>
+                                <p>Aux zestes d'orange</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>25€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Velouté de légumes d'antan</h3>
+                                <p>Carotte, panais, topinambour</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>35€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Soupe à l'oignon</h3>
+                                <p>Revisitée</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>20€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="section_menu_pages_plats">
+                        <h2>Plats</h2>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Coquilles Saint-Jacques</h3>
+                                <p>Accompagnées d'une purée de panais</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>40€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Magret de canard</h3>
+                                <p>Et parmentier de pommes de terre</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>35€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Pigeonneau d’Ille-et-Vilaine</h3>
+                                <p>Sur son lit de gnocchis aux légumes</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>44€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="section_menu_pages_desserts">
+                        <h2>Desserts</h2>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Pétales de violettes glacés</h3>
+                                <p>Et purée de noisettes</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>18€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Fondant au chocolat</h3>
+                                <p>Revisitée</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>22€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                        <li class="card_repas">
+                            <div class="card_repas_txt">
+                                <h3>Millefeuille croustillant</h3>
+                                <p>Myrtilles et pâte d’amande</p>
+                            </div>
+                            <div class="card_repas_prix">
+                                <h4>23€</h4>
+                                <span class="anim_vert"></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="bis">Commander</button>
                 </div>
-                <div class="section_menu_francaise_desserts">
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-
-                    </div>
-                    <div class="card_repas">
-                        
-                    </div>
-                </div>
-                <button>Commander</button>
             </section>
         </div>
         <footer>
             <div class="footer_logo">
-                <img src="Styles/images/logo/ohmyfood.png" class="footer_logo_img" alt="Logo_Ohmyfood">
+                <h3 class="logo_footer">
+                    ohmyfood
+                </h3>
             </div>
             <div class="footer_txt">
                 <ul>
