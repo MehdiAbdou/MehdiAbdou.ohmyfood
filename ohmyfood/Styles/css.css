@@ -100,12 +100,12 @@ a
 /*>Section_fonctionnement>*/
 /*///////////////////////////Ici Propriétés images et card/////////////////////////*/
 
-.section_restaurant
+#section_restaurant
 {
     background-color: #f6f6f6;
     padding: 40px 0px 40px 0px;
 }
-.section_restaurant h2
+#section_restaurant h2
 {
     text-align: start;
     margin-left: 20px;
@@ -305,7 +305,26 @@ footer a
 /*>footer commun>*/
 
 
-/*pages*/
+.--pink
+{
+    color: #9356DC;
+}
 
+.btn
+{
+    background: linear-gradient(to bottom right,#FF79DA, #9356DC);
+}
 
+.explo
+{
+    width: 220px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn_txt
+{
+    color: white;
+}
 
