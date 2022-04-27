@@ -18,6 +18,16 @@
     text-align: center;
 }
 
+h1
+{
+    font-family: 'Shrikhand' ;
+}
+
+h2
+{
+
+}
+
 a
 {
     color: black;
@@ -230,10 +240,6 @@ a
     border-radius: 25px 25px 0px 0px;
 }
 
-h1
-{
-    font-family: 'Shrikhand' ;
-}
 
 .card_repas
 {
@@ -308,6 +314,11 @@ footer a
 .--pink
 {
     color: #9356DC;
+}
+
+.btn_pages
+{
+    text-align: center;
 }
 
 .btn
