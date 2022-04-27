@@ -20,13 +20,11 @@
 
 h1
 {
+    margin-left: 20px;
     font-family: 'Shrikhand' ;
+    font-size: 28px;
 }
 
-h2
-{
-
-}
 
 a
 {
@@ -222,6 +220,8 @@ a
     border-bottom: 3px solid #99E2D0;
     margin-left: 20px;
     width: 50px;
+    font-weight: 200;
+    font-size: 18px;
 }
 
 .section_menu_titre
