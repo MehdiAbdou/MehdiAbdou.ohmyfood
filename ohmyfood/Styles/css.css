@@ -337,11 +337,6 @@ footer a
 /*>footer commun>*/
 
 
-.--pink
-{
-    color: #9356DC;
-}
-
 .btn_pages
 {
     text-align: center;
@@ -370,3 +365,20 @@ footer a
     color: white;
 }
 
+
+
+ 
+ button.heart_anim::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    content: "\f004";
+    font-weight: bold;
+    font-size: 28px;
+    color: #9c47fc;
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+ }
