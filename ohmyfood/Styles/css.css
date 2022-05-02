@@ -4,7 +4,18 @@
    /* box-sizing est appliqué à tous les éléments */
 }
 
+
+
 /*Propriétés Css générales*/
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+}
 
 * 
 {
@@ -45,11 +56,49 @@ a
 }
 
 /*Ici commence le css relatif a l'index*/
+
+
+/*Loader*/
+
+.chargement
+{
+    position: absolute;
+    background-color: #99E2D0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    line-height: 600px;
+    font-size: 25px;
+}
+
+.chargement_txt
+{
+    font-family: 'Shrikhand';
+}
+
+.loader
+{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle
+
+}
+
+.loader_spinner
+{
+    border-radius: 50px;
+    border: 6px solid rgba(255,255,255,0.4);
+}
+
+.loader_spinner::before
+
 /*<Header<*/
 
 .header_logo
 {
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .header_logo_img
@@ -104,6 +153,7 @@ a
 {
     margin: 10% 0% 10% 0%;
 }
+
 .fonctionnement_liste_pimp
 {
     display: flex;
@@ -113,7 +163,7 @@ a
     margin: 30px;
     align-items: center;
     height: 80px;
-    filter: drop-shadow(5px 5px 5px lightgrey)
+    box-shadow: 0px 0px 6px 2px grey ;
 }
 
 .fonctionnement_liste_pimp_txt
@@ -196,10 +246,17 @@ a
 
 .fa-heart
 {
-    font-size: x-large;
-    padding-top: 5px;
     padding-right: 20px;
+    font-size: 28px;   
 }
+
+ .fa-heart:hover::before 
+{
+    font-weight: bold;
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
 
 /*Ici commence le css relatif aux pages*/
 
@@ -275,7 +332,7 @@ a
     justify-content: space-between;
     align-items: center;
     min-height: 60px;
-    filter: drop-shadow(5px 5px 5px lightgrey)
+    box-shadow: 0px 0px 6px 2px grey ;
 }
 
 .card_repas_txt
@@ -291,6 +348,7 @@ a
 
 footer
 {
+
     background-color: #353535;
 }
 
@@ -348,8 +406,17 @@ footer a
     width: 40%;
     border-radius: 20px;
     border: none;
-    height: 40px;
-    filter: drop-shadow(5px 5px 5px lightgrey)
+    height: 40px; 
+    opacity: 1;
+    box-shadow: 0px 0px 6px 2px grey ;
+    transition: opacity 2s, box-shadow 2s;
+    
+}
+
+.btn:hover
+{
+    opacity: 0.8;
+    box-shadow: 0px 0px 6px 6px grey ;
 }
 
 .explo
@@ -366,18 +433,3 @@ footer a
 }
 
 
-
- 
- button.heart_anim::before {
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font: var(--fa-font-solid);
-    content: "\f004";
-    font-weight: bold;
-    font-size: 28px;
-    background: linear-gradient(#FF79DA, #9356DC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
- }
