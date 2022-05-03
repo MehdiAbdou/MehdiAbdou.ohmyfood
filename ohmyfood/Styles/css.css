@@ -23,6 +23,8 @@ body{
 .bloc_page{
     width: 100%;
     text-align: center;
+    -webkit-animation: discret 3s forwards;
+            animation: discret 3s forwards;
 }
 
 h1{
@@ -51,9 +53,6 @@ a{
 
 /*Loader*/
 
-.bloc_page{
-
-}
 
 .chargement{
     position: absolute;
@@ -77,11 +76,25 @@ a{
 
 @keyframes fondu{
     0% { opacity: 1;}
-    98% { opacity: 1; z-index: -1;}
+    98% { opacity: 1;}
     100% { opacity: 0; display: none; z-index: -2;}
     
 }
 
+
+@-webkit-keyframes discret{
+    0% { opacity: 0;}
+    98% { opacity: 0;}
+    100% { opacity: 1; z-index: 1;}
+    
+}
+
+@keyframes discret{
+    0% { opacity: 0;}
+    98% { opacity: 0;}
+    100% { opacity: 1; z-index: 1;}
+    
+}
 
 .chargement_txt{
     font-family: 'Shrikhand';
