@@ -256,7 +256,7 @@ a{
     border-radius: 20px 20px 20px 20px;
     margin: 20px;
     -webkit-filter: drop-shadow(5px 5px 5px lightgrey);
-            filter: drop-shadow(5px 5px 5px lightgrey)
+            filter: drop-shadow(5px 5px 5px lightgrey);
 }
 
 .card_restaurant img {
@@ -287,6 +287,13 @@ a{
     -webkit-text-fill-color: transparent;
  }
 
+
+
+.repas_txt_bis{
+    display: flex;
+    justify-content: space-between;
+
+}
 /*Ici commence le css relatif aux pages*/
 
 /*<header_pages<*/
@@ -343,7 +350,8 @@ a{
 .section_menu{
     background-color: #f6f6f6;
     margin-top: -20px;
-    position: relative;
+    position: absolute;
+    width: 100%;
     border-radius: 25px 25px 0px 0px;
 }
 
@@ -353,18 +361,75 @@ a{
     border-radius: 10px;
     margin: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    min-height: 60px;
+    gap: 20px;
+    max-height: 60px;
+    height: 60px;
     box-shadow: 0px 0px 6px 2px grey ;
+    line-height: 25px;
 }
 
 .card_repas_txt{
-    width: 60%;
-    padding: 15px;
+    width: 100%;
+    margin-left: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
+.card_repas_anim{
+    background-color: #99E2D0;
+    height: 100%;
+    visibility: hidden;
+}
 
+.prix
+{
+    padding-top: 25px;
+    width: 10%;
+}
+
+.card_repas:hover .card_repas_anim {
+    overflow: hidden;
+    width: 30%;
+    -webkit-animation: diverte 0.7s ease-in forwards;
+    animation: diverte 0.7s ease-in forwards;
+}
+
+@-webkit-keyframes diverte{
+    0% { width: 0%; visibility:visible;}
+    100% { width: 30%; visibility: visible;}
+}
+
+@keyframes diverte{
+    0% { width: 0%;visibility: visible;}
+    100% { width: 30%;visibility: visible;}
+}
+
+.fa-circle-check{
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+    
+}
+.card_repas:hover .fa-circle-check{
+    -webkit-animation: font_anim 0.7s ease-out 0s forwards;
+    animation: font_anim 0.7s ease-out 0s forwards;
+}
+
+@-webkit-keyframes font_anim{
+    0% {transform: rotate(0deg);}
+    30% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes font_anim{
+    0% {transform: rotate(0deg);}
+    30% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
 /*>section menu pages>*/
 
 /*<footer commun<*/
@@ -441,5 +506,3 @@ footer a {
 .btn_txt{
     color: white;
 }
-
-
