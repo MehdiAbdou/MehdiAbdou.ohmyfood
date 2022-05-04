@@ -317,7 +317,6 @@ a{
 
 /*<section menu pages<*/
 .bloc_pages{
-    height: 100%;
     width: 100%;
 }
 .font_page{
@@ -350,7 +349,7 @@ a{
 .section_menu{
     background-color: #f6f6f6;
     margin-top: -20px;
-    position: absolute;
+    position: relative;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
 }
@@ -359,7 +358,7 @@ a{
 .card_repas{
     background-color: white;
     border-radius: 10px;
-    margin: 20px;
+    margin: 30px 20px 20px 20px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -367,6 +366,48 @@ a{
     height: 60px;
     box-shadow: 0px 0px 6px 2px grey ;
     line-height: 25px;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-animation: apparition 0.5s ease forwards;
+            animation: apparition 0.5s ease forwards;
+}
+
+@-webkit-keyframes apparition{
+    0%{opacity: 0; margin: 30px 20px 20px 20px;}
+    100%{opacity: 1; margin: 20px 20px 20px 20px;}
+}
+
+@keyframes apparition{
+    0%{opacity: 0; margin: 30px 20px 20px 20px;}
+    100%{opacity: 1; margin: 20px 20px 20px 20px;}
+}
+
+.delais_un{
+    animation-delay: 0.3s;
+}
+.delais_deux{
+    animation-delay: 0.6s;
+}
+.delais_trois{
+    animation-delay: 0.9s;
+}
+.delais_quatre{
+    animation-delay: 1.2s;
+}
+.delais_cinq{
+    animation-delay: 1.5s;
+}
+.delais_six{
+    animation-delay: 1.8s;
+}
+.delais_sept{
+    animation-delay: 2.1s;
+}
+.delais_huit{
+    animation-delay: 2.4s;
+}
+.delais_neuf{
+    animation-delay: 2.7s;
 }
 
 .card_repas_txt{
@@ -494,6 +535,7 @@ footer a {
 .btn:hover{
     opacity: 0.8;
     box-shadow: 0px 0px 6px 6px grey ;
+    cursor: pointer;
 }
 
 .explo{
