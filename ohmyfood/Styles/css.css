@@ -413,6 +413,9 @@ a{
 .card_repas_txt{
     width: 100%;
     margin-left: 15px;
+}
+
+.elipse{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -422,6 +425,7 @@ a{
     background-color: #99E2D0;
     height: 100%;
     visibility: hidden;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .prix
