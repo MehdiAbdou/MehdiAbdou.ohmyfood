@@ -283,16 +283,33 @@ a{
     padding-right: 20px;
     font-size: 28px;   
     font-weight: 500;
+    opacity: 1;
 }
 
- .fa-heart:hover::before {
+ .heart_anim{
+    opacity: 0;
+    position: relative;
+    left: 52px;
     font-weight: bold;
     background: linear-gradient(#FF79DA, #9356DC);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
- }
+}
 
+.fa-heart:hover{
+    -webkit-animation: like_bis 1s linear forwards;
+    animation: like_bis 1s linear forwards;
+}
 
+@-webkit-keyframes like_bis{
+0%{ opacity: 0;}
+100%{ opacity: 1;}
+}
+
+@keyframes like_bis{
+0%{ opacity: 0; }
+100%{ opacity: 1; }
+}
 
 .repas_txt_bis{
     display: flex;
