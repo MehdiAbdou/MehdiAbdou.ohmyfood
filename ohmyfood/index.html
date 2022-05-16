@@ -14,10 +14,10 @@
         <link href="Styles/css.css" rel="stylesheet">
     </head> 
     <body> <!--Début Body-->
-        <section class="chargement">
+        <div class="chargement">
             <span class="loader loader_spinner"></span>
             <span class="chargement_txt">Chargement..</span>
-        </section>
+        </div>
             <div class="bloc_page"> <!--Début bloc_page -->
                 <header>
                     <div class="header_logo">
@@ -34,11 +34,7 @@
                     <p>Découvrez des restaurants d'exception, séléctionné par nos soins.</p>
                     </div>
                     <div class="section_top_button">
-                        <a href="#section_restaurant" class="link_btn">
-                            <button class="btn explo">
-                                <span class="btn_txt">Explorer nos restaurants</span>
-                            </button>
-                        </a>
+                        <input type="submit" value="Explorer nos restaurants" class="btn explo btn_txt">
                     </div>
                     
                 </section>
@@ -71,7 +67,10 @@
                                 </div>
                                 <div class="card_restaurant_bottom">
                                     <div class="card_restaurant_bottom_txt"><h3>La palette du goût</h3><p>Ménilmontant</p></div>
-                                    <i class="fa-regular fa-heart heart_anim"></i>
+                                    <div class="coeur">
+                                        <i class="fa-regular fa-heart heart_anim"></i>
+                                        <i class="fa-regular fa-heart heart_anim_bis"></i>
+                                    </div>
                                 </div>
                             </a>
                         </div><!-- Fin Card restaurant 1-->
@@ -83,25 +82,34 @@
                                 </div>
                                 <div class="card_restaurant_bottom">
                                     <div class="card_restaurant_bottom_txt"><h3>La note enchantée</h3><p>Charonne</p></div>
-                                    <i class="fa-regular fa-heart heart_anim"></i>
+                                    <div class="coeur">
+                                        <i class="fa-regular fa-heart heart_anim"></i>
+                                        <i class="fa-regular fa-heart heart_anim_bis"></i>
+                                    </div>
                                 </div>
                             </a>
                         </div><!-- Fin Card restaurant 2-->
                         <div class="card_restaurant"><!-- Début card restaurant 3-->
                             <a href="francaise.html" class="card_clicable">
                                 <img src="Styles/images/restaurants/francaise.jpg" alt="À la française" class="img_francaise"/>
-                                <div class="card_restaurant_bottom">
+                                <div class="card_restaurant_bottom not_new">
                                     <div class="card_restaurant_bottom_txt"><h3>À la française</h3><p>Cité Rouge</p></div>
-                                    <i class="fa-regular fa-heart heart_anim"></i>
+                                    <div class="coeur">
+                                        <i class="fa-regular fa-heart heart_anim"></i>
+                                        <i class="fa-regular fa-heart heart_anim_bis"></i>
+                                    </div>
                                 </div>
                             </a>
                         </div><!-- Fin Card restaurant 3-->
                         <div class="card_restaurant"><!-- Début card restaurant 4-->
                             <a href="delices_des_sens.html" class="card_clicable">
                                 <img src="Styles/images/restaurants/sens.jpg" alt="Le délice des sens" class="img_sens"/>
-                                <div class="card_restaurant_bottom">
+                                <div class="card_restaurant_bottom not_new">
                                     <div class="card_restaurant_bottom_txt"><h3>Le délice des sens</h3><p>Folie-Méricourt</p></div>
-                                    <i class="fa-regular fa-heart heart_anim"></i>
+                                    <div class="coeur">
+                                        <i class="fa-regular fa-heart heart_anim"></i>
+                                        <i class="fa-regular fa-heart heart_anim_bis"></i>
+                                    </div>
                                 </div>
                             </a>
                         </div><!-- Fin Card restaurant 4-->
@@ -119,7 +127,7 @@
                         <li><i class="fa-solid fa-utensils"></i><a href="#" class="Proposer">Proposer un restaurant</a></li>
                         <li><i class="fa-solid fa-handshake-angle"></i><a href="#" class="partenaire">Devenir partenaire</a></li>
                         <li><a href="#" class="mentions">Mentions légales</a></li>
-                        <li><a href="#" class="contact">Contact</a></li>
+                        <li><a href="mailto:mehdi.abdou96@gmail.com">Contact</a></li>
                     </ul>
                 </div>
             </footer>
