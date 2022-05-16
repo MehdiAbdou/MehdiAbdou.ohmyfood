@@ -195,7 +195,7 @@ a{
 
 .fonctionnement_liste_pimp{
     display: flex;
-    gap: 10%;
+    gap: 20%;
     background-color: #f6f6f6;
     border-radius: 20px;
     margin: 30px;
@@ -234,19 +234,15 @@ a{
     align-items: center;
 }
 
-.img_nouveau{
-    margin-bottom: -20px;
-}
+
 
 .nouveau{
-    position: relative;
-    left: 70%;
-    bottom: 180px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
     background-color: #99E2D0;
     color: #008c66;
-    width: 80px;
-    height: 30px;
-    padding-top: 5px;
+    padding: 5px;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -272,7 +268,7 @@ a{
     text-align: initial;
     display: flex;
     justify-content: space-between;
-    padding: 0px 0px 10px 10px;
+    padding: 10px 0px 10px 10px;
 }
 
 .not_new
