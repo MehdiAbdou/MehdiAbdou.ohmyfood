@@ -157,27 +157,30 @@ a{
     width: 100%;
     background-color: #eaeaea;
     border-top: solid 2px grey;
-    padding: 4%;
+    padding: 20px;
 }
 /*>Header>*/
 
 /*<Section_top<*/
 .section_top{ 
     background-color: #f6f6f6;
-    padding: 10%;
+    padding: 30px;
 }
 
 .section_top h2{
-    margin-bottom: 10%;
+    margin-bottom: 50px;
 }
 .section_top_txt
 {
-    margin-bottom: 15%;
+    margin-bottom: 40px;
 }
 
 .section_top_txt p{
     font-weight: 300;
     font-size: 18px;
+}
+.section_top_txt h1{
+    font-family:'Roboto' ;
 }
 
 /*>Section_top>*/
@@ -193,6 +196,7 @@ a{
     margin: 10% 0% 10% 0%;
 }
 
+
 .fonctionnement_liste_pimp{
     display: flex;
     gap: 15%;
@@ -202,6 +206,14 @@ a{
     align-items: center;
     height: 80px;
     box-shadow: 0px 0px 6px 2px lightgrey ;
+}
+
+.fonctionnement_liste_pimp:hover{
+    background-color: #f7e8f8;  
+}
+
+.fonctionnement_liste_pimp:hover .fa-solid{
+    color: #9356DC;
 }
 
 .fonctionnement_liste_pimp_txt{
@@ -221,6 +233,7 @@ a{
 #section_restaurant{
     background-color: #f6f6f6;
     padding: 40px 0px 40px 0px;
+
 }
 
 #section_restaurant h2{
@@ -354,6 +367,7 @@ a{
     width: 50px;
     font-weight: 300;
     font-size: 16px;
+    height: fit-content
 }
 
 .section_menu_titre{
@@ -372,6 +386,7 @@ a{
     position: relative;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
+    padding-bottom: 20px ;
 }
 
 
@@ -588,4 +603,52 @@ footer a {
 
 .btn_txt{
     color: white;
+}
+
+/*<Responsive tablette<*/
+
+@media all and (min-width: 768px)
+{
+    .section_menu{
+        padding: 0px 40px 20px 40px;
+    }
+    .section_fonctionnement{
+        margin: 20px;
+    }
+    .fonc_resp{
+        display: flex;
+    }
+    .fonctionnement_liste_pimp{
+        width: 100%;
+    }
+}
+/*>Responsive tablette>*/
+
+/*<Responsive desktop<*/
+
+@media all and (min-width: 991px)
+{
+    .section_card{
+        flex-direction: initial;
+    }
+    .section_menu_pages{
+        display: flex;
+    }
+    .resp_menu{
+        width: 33%;
+        margin-top: 20px;
+        margin-left: -70px;
+    }
+    .section_menu{
+        border-radius: 0;
+        padding: 0px 0px 20px 0px;
+    }
+    .card_restaurant{
+        max-height: 290px;
+        height: 290px;
+    }
+    .heart_anim{
+        position: absolute;
+        left: initial;
+    }
 }
