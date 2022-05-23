@@ -651,4 +651,7 @@ footer a {
         position: absolute;
         left: initial;
     }
+    .font_page_img{
+        height: 290px;
+    }
 }
